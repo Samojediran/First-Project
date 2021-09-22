@@ -1,0 +1,37 @@
+/* .section1{
+background: lawngreen;
+}
+
+
+.left-side{
+    background-color: chocolate;
+    background-position: center;
+    background-size: contain no-repeat;
+} */
+.card-text{
+    border: none;
+   
+    
+    height: 470px;
+}
+.card{
+    height: 540px;
+    border: none;
+    
+}
+ .card1{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    
+} 
+.body2{
+    background-color: azure;
+}
+.anchor:hover{
+    text-decoration: none;
+
+}
+
+
+

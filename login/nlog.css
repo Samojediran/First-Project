@@ -1,0 +1,58 @@
+body{
+    background: black ;
+}
+.signin{
+    width: 400px;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    border-color: white;
+}
+.log{
+    width: 300px;
+    color: goldenrod;
+    border-radius: 16px;
+}
+
+.textbox{
+    margin-top: 20px;
+    width: 300px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8x, 0 ;
+    margin: 8px, 0;
+    border-bottom: 2px solid goldenrod;
+    
+}
+.fas{
+    color: white;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    
+    float: left;
+    margin: 0 10px;
+}
+.log2{
+    background-color: goldenrod;
+    color: solid black;
+    width: 300px;
+    outline: none;
+    border-radius: 16px;
+    border: none;
+}
+.su, .su:hover{
+    color: goldenrod;
+    text-decoration: none;
+}
+.fab{
+    color: white;
+    font-size: 30px;
+}

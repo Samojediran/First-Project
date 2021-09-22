@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white ;
+    color:black;
+}
+.navbar-brand{
+font-size: 20px;
+color: black;
+font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px ;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 60px;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 60px;
+}
+
+@keyframes blink{
+    0%{
+        background-image: url("img/advert1.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    15%{
+        background-image: url("img/advert2.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    30%{
+        background-image: url("img/advert3.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    42%{
+        background-image: url("img/advert4.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    58%{
+        background-image: url("img/nb (1).jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    70%{
+        background-image: url("img/advert5.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    85%{
+        background-image: url("img/modelling2.jpg")t;
+        background-size: cover;
+        background-position: 50%;
+    }
+    100%{
+        background-image: url("img/advert6.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+    
+}
+
+.main{
+    
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    width:  100%;
+    animation: blink 20s infinite;
+    -webkit-animation: blink 20s infinite;
+}  
+.main h1{
+    font-size: 40px;
+    font-weight: 00;
+    margin-top: -40PX;
+    font-family: 'Lobster', cursive;
+    color: brown;
+    
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.img-fluid{
+   max-height: 50%;
+}
+
+.card{
+    border: none;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.another{
+    background: url("img/model2.jpg")no-repeat ; 
+    background-size:cover;
+    height: 80vh;
+    width: 100%;
+    color: brown;
+}
+.another h1, .another h6{
+    font-family: 'Lobster', cursive;
+}
+.footer{
+    background: black;
+    color: white;
+}
+
+}
+.btn:hover{
+    background-color: transparent ;
+    color: white;
+}
+.fa {
+    margin: 1px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-instagram-square {
+    color: #3b5998;
+}
+.fa-google-plus-square{
+    color: red;
+}
